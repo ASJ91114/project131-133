@@ -1,0 +1,79 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    margin-top: 80px;
+    font-size: 40px;
+    width: 100%;
+    font-family: algerian;
+    background: transparent;
+}
+
+#status {
+    font-size: 18px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        box-shadow: 7px 7px 40px violet;
+    }
+
+    14% {
+        box-shadow: 7px 7px 40px indigo;
+    }
+
+    28% {
+        box-shadow: 7px 7px 40px blue;
+    }
+
+    52% {
+        box-shadow: 7px 7px 40px green;
+    }
+
+    68% {
+        box-shadow: 7px 7px 40px yellow;
+    }
+
+    82% {
+        box-shadow: 7px 7px 40px orange;
+    }
+
+    100% {
+        box-shadow: 7px 7px 40px red;
+    }
+}
+
+.button {
+    font-size: 20px !important;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 240px;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: black;
+}
+
+.footer{
+    position: fixed;
+    color: rgb(70, 68, 68);
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
